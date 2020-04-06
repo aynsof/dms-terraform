@@ -26,7 +26,7 @@ The VPC peer connections aren’t transitive, so the risk of exposure to the wid
 
 # DMS Architecture
 
-This is the high-level view of the DMS infrastructure. In this example there are two major on-prem Oracle databases. They are linked by highly-available virtual private network (VPN) connections to the cloud environment. These links provide a secure tunnel through which DMS can communicate with the on-premises databases. There are dual VPN connections from each datacentre to the DMS environment — four connections in total (simplified in the above image to reduce noise).
+This is the high-level view of the DMS infrastructure (dms-architecture.png). In this example there are two major on-prem Oracle databases. They are linked by highly-available virtual private network (VPN) connections to the cloud environment. These links provide a secure tunnel through which DMS can communicate with the on-premises databases. There are dual VPN connections from each datacentre to the DMS environment — four connections in total (simplified in the above image to reduce noise).
 
 The DMS infrastructure consists of:
  *  A virtual private cloud (VPC), defining all the networking and security groups.
